@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="DD.AxisPractice.ReadExcel">
+      <class name="DD.AxisPractice.Job">
         <methods>
-          <include name="fblogin"/>
+          <include name="jobs"/>
+          <include name="Log"/>
         </methods>
-      </class> <!-- DD.AxisPractice.ReadExcel -->
+      </class> <!-- DD.AxisPractice.Job -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

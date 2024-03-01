@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
+      <class name="DD.AxisPractice.ReadExcel"/>
       <class name="DD.AxisPractice.AppTest"/>
+      <class name="DD.AxisPractice.WriteToExcel"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
